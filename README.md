@@ -34,6 +34,7 @@ Available sets (in different sub-directories):
 * QAPLIB-More: other (intermediate) instances of QAPLIB problems
 * Drezner: Drezner instances
 * Palubeckis: Palubeckis instances
+* Taillard-Grey: Taillard grey patterns
 
 
 
