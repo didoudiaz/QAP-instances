@@ -23,7 +23,7 @@ Data file format enriched, suffix: `.qap`:
         flow/weight matrix (SIZE x SIZE values)
         distance matrix (SIZE x SIZE values)
 
-Solution file format, suffix: .sln (as provided by QAPLIB):
+Solution file format, suffix: `.sln` (as provided by QAPLIB):
 
         SIZE COST
         vector of SIZE values
