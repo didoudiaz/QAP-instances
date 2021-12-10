@@ -31,7 +31,9 @@ Solution file format, suffix: .sln (as provided by QAPLIB):
 Available sets (in different sub-directories):
 
 * QAPLIB: the well-known suite (139 instances)
-
 * QAPLIB-More: other (intermediate) instances of QAPLIB problems
+* Drezner: Drezner instances
+* Palubeckis: Palubeckis instances
+
 
 
