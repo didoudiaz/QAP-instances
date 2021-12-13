@@ -1,9 +1,21 @@
 # QAP-instances
 Various sets of QAP instances
 
-We provide 3 file formats:
+## Available sets
 
-Data file format: suffix: `.dat` (as provided by QAPLIB):
+Provided in different sub-directories:
+
+* QAPLIB: the well-known suite (139 instances)
+* QAPLIB-More: other (intermediate) instances of QAPLIB problems
+* Drezner: Drezner instances
+* Palubeckis: Palubeckis instances
+* Taillard-Grey: Taillard grey patterns
+
+## File formats
+
+This project provides 3 file formats:
+
+**Data file format: suffix: `.dat` (as provided by QAPLIB)**:
 
         SIZE
         flow/weight matrix (SIZE x SIZE values)
@@ -14,7 +26,7 @@ We have extended this format (suffixed .qap) to record the optimum (when known) 
 
 This is done by extending the first line of the file (so most code remain compatible since the first line is treated separately).
 
-Data file format enriched, suffix: `.qap`:
+**Data file format enriched, suffix: `.qap`:**
 
 
         SIZE  OPT  BKS
@@ -23,18 +35,13 @@ Data file format enriched, suffix: `.qap`:
         flow/weight matrix (SIZE x SIZE values)
         distance matrix (SIZE x SIZE values)
 
-Solution file format, suffix: `.sln` (as provided by QAPLIB):
+**Solution file format, suffix: `.sln` (as provided by QAPLIB):**
 
         SIZE COST
         vector of SIZE values
 
-Available sets (in different sub-directories):
+Beware: the vector of values can be 1-based (values in 1..SIZE) as provided by QAPLIB or 0-based (in 0..SIZE-1).
 
-* QAPLIB: the well-known suite (139 instances)
-* QAPLIB-More: other (intermediate) instances of QAPLIB problems
-* Drezner: Drezner instances
-* Palubeckis: Palubeckis instances
-* Taillard-Grey: Taillard grey patterns
 
 
 
