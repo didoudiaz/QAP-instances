@@ -10,6 +10,7 @@ Provided in different sub-directories:
 * Drezner: Drezner instances
 * Palubeckis: Palubeckis instances
 * Taillard-Grey: Taillard grey patterns
+* Carvalho-Rahmann: Carvalho & Rahmann microarray layout instances (to come)
 
 ## File formats
 
@@ -41,6 +42,22 @@ This is done by extending the first line of the file (so most code remain compat
         vector of SIZE values
 
 Beware: the vector of values can be 1-based (values in 1..SIZE) as provided by QAPLIB or 0-based (in 0..SIZE-1).
+
+### See also
+[The QAPLIB web site](http://www.mgi.polymtl.ca/anjos/qaplib/inst.html)
+
+
+[The Taillard web site](http://mistic.heig-vd.ch/taillard/problemes.dir/qap.dir/qap.html) includes Taillard's hard instances and grey patterns and other author instances (e.g. Drezner).
+
+**Carvalho and Rahmann**
+
+In 2006, Carvalho and Rahmann proposed a new modeling for the placement problem in DNA microarrays layouts as a QAP. They propose a set of 14 problems which are intended to minimize either the border length problem or the conflict index problem in DNA microarrays. In their paper, these problems were solved using the GRASP metaheuristic. These problems turned out to be very difficult to solve, and therefore some researchers have included these problems to evaluate the performance of new algorithms.
+
+Sergio A. de Carvalho and Sven Rahmann.  *Microarray Layout as Quadratic Assignment Problem*. German Conference on Bioinformatics GCB 2006, Tübingen, Germany.
+
+
+
+
 
 
 
